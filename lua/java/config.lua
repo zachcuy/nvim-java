@@ -22,7 +22,7 @@ local config = {
 
 	-- load java test plugins
 	java_test = {
-		enable = true,
+		enable = false,
 	},
 
 	-- load java debugger plugins
