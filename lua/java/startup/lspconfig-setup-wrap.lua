@@ -18,13 +18,13 @@ function M.setup(config)
 
 		local jdtls_plugins = {}
 
-		if config.java_test.enable then
-			table.insert(jdtls_plugins, 'java-test')
-		end
-
-		if config.java_debug_adapter.enable then
-			table.insert(jdtls_plugins, 'java-debug-adapter')
-		end
+		-- if config.java_test.enable then
+		-- 	table.insert(jdtls_plugins, 'java-test')
+		-- end
+		--
+		-- if config.java_debug_adapter.enable then
+		-- 	table.insert(jdtls_plugins, 'java-debug-adapter')
+		-- end
 
 		if config.spring_boot_tools.enable then
 			table.insert(jdtls_plugins, 'spring-boot-tools')
